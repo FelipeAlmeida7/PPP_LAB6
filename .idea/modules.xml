@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cafeteria/Cafeteria.iml" filepath="$PROJECT_DIR$/Cafeteria/Cafeteria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loja/Loja.iml" filepath="$PROJECT_DIR$/Loja/Loja.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PPP6.iml" filepath="$PROJECT_DIR$/.idea/PPP6.iml" />
     </modules>
   </component>
