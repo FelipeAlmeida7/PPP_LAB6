@@ -1,15 +1,10 @@
 /*
-Diferença entre Template Method e Decorator:
+O padrão Template Method é utilizado quando existe um processo que sempre segue a mesma sequência de passos
+mas algumas etapas podem variar essas etapas são implementadas pelas subclasses
+ enquanto a estrutura do algoritmo fica definida na classe abstrata
 
-Template Method:
-- Define um algoritmo fixo em uma classe abstrata.
-- As subclasses implementam apenas algumas etapas do algoritmo.
-- O objetivo é reutilizar um mesmo processo, alterando apenas partes dele.
-
-Decorator:
-- Adiciona novas funcionalidades a um objeto sem modificar sua classe.
-- Os comportamentos podem ser combinados dinamicamente.
-- O objetivo é estender funcionalidades.
+Já o padrão Decorator serve para adicionar novas funcionalidades a um objeto sem precisar alterar sua classe original, com ele
+é possível combinar diferentes comportamentos de forma dinâmica, tornando o objeto mais flexível.
 */
 
 public class Main {
